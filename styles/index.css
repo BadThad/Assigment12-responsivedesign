@@ -1,3 +1,182 @@
 body {
     background-color: #000000;
 }
+
+/* --- Copy+paste required fonts --- */
+
+/*
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.baloo-regular {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.source-sans-3-regular {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+/* --- Styling ---*/
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: -0.25px;
+}
+
+.nav-btn-group {
+    display: flex;
+}
+
+.nav-btn {
+    margin-left: 30px;
+}
+
+.three-dots {
+    width: 24px;
+    height: 24px;
+    margin-left: 5%;
+}
+
+.info-text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.info-text {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.title, .info-text {
+    text-align: center;
+}
+
+.site-image {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        padding-left: 10%;
+        padding-right: 10%;
+    }  
+    
+    .header-container {
+        margin-top: 2vh;
+    }
+
+    .nav-btn-group {
+        display: none;
+      }
+    
+    .info-text-container {
+        margin-top: 20%;
+    }
+    
+    .title {
+        font-size: 36px;
+    }
+
+    .info-text {
+        margin-top: 4vh;
+        font-size: 12px;
+        width: 220px;
+    }
+
+    .site-image {
+        margin-top: 8vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:799px) {
+    body {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .header-container {
+        margin-top: 5%;
+    }
+    
+    .info-text-container {
+        margin-top: 30%;
+    }
+    
+    .title {
+        font-size: 72px;
+    }
+
+    .info-text {
+        margin-top: 5%;
+        width: 574px;
+    }
+
+    .site-image {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    body {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+    .header-container {
+        margin-top: 10%;
+    }
+    
+    .info-text-container {
+        margin-top: 20%;
+    }
+
+    .title {
+        font-size: 84px;
+    }
+
+    .info-text {
+        margin-top: 5%;
+    }
+
+    .site-image {
+        overflow: hidden;
+        margin-top: 5%;
+    }
+}

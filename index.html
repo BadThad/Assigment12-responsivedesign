@@ -13,22 +13,29 @@
 <body>
     <header class="header-container">
         <nav class="nav-bar">
-            <div class="home-btn logo">Head.</div>
-            <div class="nav-btn-group-container">
-                <div class="nav-btn-group">Works</div>
-                <div class="nav-btn-group">Services</div>
-                <div class="nav-btn-group">Contacts</div>
-                <div class="three-dots">
-                    <img src="images/svg/ellipsis-solid.svg" alt="">
-                </div>
+            <div class="home-btn logo white-text">Head.</div>
+            <div class="nav-btn-group">
+                <div class="nav-btn white-text">Works</div>
+                <div class="nav-btn white-text">Services</div>
+                <div class="nav-btn white-text">Contacts</div>
+            </div>
+            <div class="three-dots">
+                <img src="images/svg/ellipsis-solid.svg" alt="three-dots">
             </div>
         </nav>
     </header>
     <div class="info-text-container">
-        <div class="title">Japan</div>
-        <div class="info-text">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
+        <div class="title white-text">Japan</div>
+        <div class="info-text white-text">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
             Donec viverra eleifend lacus, vitae ullamcor.</div>
     </div>
-    <div class="adaptive-image"></div>
+    <div class="site-image">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/images/mobile-Fuji.png">
+            <source media="(max-width: 799px)" srcset="/images/tablet-Fuji.png">
+            <source media="(min-width: 800px)" srcset="/images/desktop-Fuji.png">
+            <img src="images/desktop-Fuji.png" alt="Mt. Fuji">
+        </picture>
+    </div>
 </body>
 </html>

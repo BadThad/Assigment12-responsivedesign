@@ -46,20 +46,43 @@ body {
     font-style: normal;
     font-size: 24px;
     letter-spacing: -0.25px;
+    cursor: pointer;
+}
+
+.logo-container {
+    margin-right: auto;
 }
 
 .nav-btn-group {
     display: flex;
+    align-items: center;
 }
 
 .nav-btn {
-    margin-left: 30px;
+    cursor: pointer;
+}
+
+.nav-btn1 {
+    width: 80px;
+}
+
+.nav-btn2 {
+    width: 90px;
+}
+
+.nav-btn3 {
+    width: 45px;
+}
+
+.nav-btn:hover {
+    font-size: 110%;
 }
 
 .three-dots {
     width: 24px;
     height: 24px;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .info-text-container {
@@ -153,18 +176,28 @@ body {
     }
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:800px) { 
     body {
-        padding-left: 20%;
-        padding-right: 20%;
+        max-width: 1440px;
+        width: 100%;
+        margin: auto;
+        /* padding-left: 20%;
+        padding-right: 20%; */
     }
     
     .header-container {
+        max-width: 864px;
         margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .info-text-container {
-        margin-top: 20%;
+        margin-top: 10%;
+        max-width: 574px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .title {
